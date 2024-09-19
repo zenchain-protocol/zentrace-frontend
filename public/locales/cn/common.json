@@ -264,7 +264,9 @@
     "newVerifiedContracts_title": "新验证合约",
     "newVerifiedContracts_description": "该期间的新验证合约数量",
     "verifiedContractsGrowth_title": "验证合约增长",
-    "verifiedContractsGrowth_description": "该期间累计验证合约数量"
+    "verifiedContractsGrowth_description": "该期间累计验证合约数量",
+    "newNativeCoinTransfers_title": "ZCX 转账数量",
+    "newNativeCoinTransfers_description": "已完成的代币转账"
   },
   "stats_counter": {
     "averageBlockTime_title": "平均区块时间",
@@ -282,7 +284,15 @@
     "totalTokens_title": "代币总数",
     "totalTokens_description": "所有代币合约的数量",
     "totalTxns_title": "总交易数",
-    "totalTxns_description": "所有交易，包括待处理、丢弃、替换、失败的交易"
+    "totalTxns_description": "所有交易，包括待处理、丢弃、替换、失败的交易",
+    "lastNewContracts_title": "今日合约数量",
+    "lastNewContracts_description": "今日部署的合约数量",
+    "lastNewVerifiedContracts_title": "今日已验证的合约数量",
+    "lastNewVerifiedContracts_description": "今日验证的合约数量",
+    "totalContracts_title": "合约总数",
+    "totalContracts_description": "已部署的合约数量",
+    "totalVerifiedContracts_title": "已验证的合约总数",
+    "totalVerifiedContracts_description": "已验证合约的总数量"
   },
   "tx_area": {
     "Details": "详情",

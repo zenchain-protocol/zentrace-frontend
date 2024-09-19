@@ -264,7 +264,9 @@
     "newVerifiedContracts_title": "New verified contracts",
     "newVerifiedContracts_description": "New verified contracts number for the period",
     "verifiedContractsGrowth_title": "Verified contracts growth",
-    "verifiedContractsGrowth_description": "Cumulative number verified contracts for the period"
+    "verifiedContractsGrowth_description": "Cumulative number verified contracts for the period",
+    "newNativeCoinTransfers_title": "Number of ZCX transfers",
+    "newNativeCoinTransfers_description": "Completed token transfers"
   },
   "stats_counter": {
     "averageBlockTime_title": "Average block time",
@@ -282,7 +284,15 @@
     "totalTokens_title": "Total tokens",
     "totalTokens_description": "Number of all token contracts",
     "totalTxns_title": "Total txns",
-    "totalTxns_description": "All transactions including pending, dropped, replaced, failed transactions"
+    "totalTxns_description": "All transactions including pending, dropped, replaced, failed transactions",
+    "lastNewContracts_title": "Number of contracts today",
+    "lastNewContracts_description": "Number of contracts deployed today",
+    "lastNewVerifiedContracts_title": "Number of verified contracts today",
+    "lastNewVerifiedContracts_description": "Number of contracts verified today",
+    "totalContracts_title": "Total contracts",
+    "totalContracts_description": "Number of contracts deployed",
+    "totalVerifiedContracts_title": "Total verified contracts",
+    "totalVerifiedContracts_description": "Number of total verified contracts"
   },
   "tx_area": {
     "Details": "Details",
