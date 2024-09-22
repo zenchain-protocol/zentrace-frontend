@@ -1,6 +1,6 @@
 # Zentrace Frontend
 
-Zentrace is a comprehensive block explorer and analytics platform tailored for the Zenchain blockchain. Originating as a fork from Blockscout, the Zentrace has undergone significant enhancements to improve functionality and ease of deployment across various operating systems.
+Zentrace is a comprehensive block explorer and analytics platform tailored for the Zenchain blockchain. Originating as a fork from Blockscout, Zentrace has undergone significant enhancements to improve functionality and ease of deployment across various operating systems.
 
 The Zentrace ecosystem consists of the following components:
 
