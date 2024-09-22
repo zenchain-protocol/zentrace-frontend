@@ -1,16 +1,16 @@
-# Zenchain Explorer Frontend
+# Zentrace Frontend
 
-Zenchain Explorer is a comprehensive block explorer and analytics platform tailored for the Zenchain blockchain. Originating as a fork from Blockscout, the Zenchain Explorer has undergone significant enhancements to improve functionality and ease of deployment across various operating systems.
+Zentrace is a comprehensive block explorer and analytics platform tailored for the Zenchain blockchain. Originating as a fork from Blockscout, Zentrace has undergone significant enhancements to improve functionality and ease of deployment across various operating systems.
 
-The Zenchain Explorer ecosystem consists of the following components:
+The Zentrace ecosystem consists of the following components:
 
-* Zenchain Explorer Backend <https://github.com/zenchain-protocol/zenchain-explorer-backend>
-* Zenchain Explorer Frontend (**the current repository**)
-* Zenchain Explorer Rust Services <https://github.com/zenchain-protocol/zenchain-explorer-rs>
+- Zentrace Backend <https://github.com/zenchain-protocol/zenchain-explorer-backend>
+- Zentrace Frontend (**the current repository**)
+- Zentrace Rust Services <https://github.com/zenchain-protocol/zenchain-explorer-rs>
 
 # Development environment configuration
 
-The process of setting up the development environment for Zenchain Explorer Frontend, which is built using the Next.js, differs depending on the operating system in use. This tutorial is designed to guide you through the preparation of your development environment, tailored to each of these operating systems.
+The process of setting up the development environment for Zentrace Frontend, which is built using the Next.js, differs depending on the operating system in use. This tutorial is designed to guide you through the preparation of your development environment, tailored to each of these operating systems.
 
 ## Dependencies
 
@@ -57,7 +57,7 @@ Download and execute the installer (for updates please check <https://nodejs.org
 
 ### Yarn
 
-It's the package manager used by Zenchain Explorer Frontend.
+It's the package manager used by Zentrace Frontend.
 
 #### Linux/MacOS/WSL (Windows Subsystem for Linux)/Windows
 
@@ -114,7 +114,7 @@ Execute the following command:
 yarn dev
 ```
 
-once compiled, starts listening using the port `3000` (NEXT_PUBLIC_APP_PORT). 
+once compiled, starts listening using the port `3000` (NEXT_PUBLIC_APP_PORT).
 
 ## With prebuilt assets and envs scripts
 
@@ -132,6 +132,6 @@ then starts listening using the port `3000` (NEXT_PUBLIC_APP_PORT).
 
 # Deployment
 
-When you're ready for deployment, we recommend using the Zenchain Explorer Backend <https://github.com/zenchain-protocol/zenchain-explorer-backend> through Docker containers. The provided Docker Compose file will automatically download and compile this repository.
+When you're ready for deployment, we recommend using the Zentrace Backend <https://github.com/zenchain-protocol/zenchain-explorer-backend> through Docker containers. The provided Docker Compose file will automatically download and compile this repository.
 
 Please ensure that you configure the frontend-related environment variables located at <https://github.com/zenchain-protocol/zenchain-explorer-backend/blob/master/docker-compose/envs/common-frontend.env> before proceeding with deployment.
