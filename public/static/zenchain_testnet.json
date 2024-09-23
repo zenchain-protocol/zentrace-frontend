@@ -3,7 +3,7 @@
     "title": "Zenchain Testnet",
     "url": "https://www.zenchain.io",
     "group": "Testnets",
-    "icon": "https://raw.githubusercontent.com/zenchain-protocol/zenchain-explorer-frontend/main/public/static/zenchain_icon.svg",
+    "icon": "https://raw.githubusercontent.com/zenchain-protocol/zentrace-frontend/main/public/static/zenchain_icon.svg",
     "isActive": true
   }
 ]

@@ -4,9 +4,9 @@ Zentrace is a comprehensive block explorer and analytics platform tailored for t
 
 The Zentrace ecosystem consists of the following components:
 
-- Zentrace Backend <https://github.com/zenchain-protocol/zenchain-explorer-backend>
+- Zentrace Backend <https://github.com/zenchain-protocol/zentrace-backend>
 - Zentrace Frontend (**the current repository**)
-- Zentrace Rust Services <https://github.com/zenchain-protocol/zenchain-explorer-rs>
+- Zentrace Rust Services <https://github.com/zenchain-protocol/zentrace-rs>
 
 # Development environment configuration
 
@@ -74,12 +74,12 @@ after installation restart the shell.
 Create a new folder, open it in the terminal and execute:
 
 ```text
-git clone https://github.com/zenchain-protocol/zenchain-explorer-frontend
+git clone https://github.com/zenchain-protocol/zentrace-frontend
 ```
 
 authenticate to GitHub, after confirmation, git starts cloning the repository.
 
-Open `zenchain-explorer-frontend` folder and execute:
+Open `zentrace-frontend` folder and execute:
 
 ```bash
 yarn
@@ -98,7 +98,7 @@ You can also build and run the frontend within Docker directly.
 docker compose up -d
 ```
 
-starts a container using the `zenchain-explorer/frontend` built image and starts listening using the port `3000` (NEXT_PUBLIC_APP_PORT).
+starts a container using the `zentrace/frontend` built image and starts listening using the port `3000` (NEXT_PUBLIC_APP_PORT).
 
 # Start the application locally
 
@@ -132,6 +132,6 @@ then starts listening using the port `3000` (NEXT_PUBLIC_APP_PORT).
 
 # Deployment
 
-When you're ready for deployment, we recommend using the Zentrace Backend <https://github.com/zenchain-protocol/zenchain-explorer-backend> through Docker containers. The provided Docker Compose file will automatically download and compile this repository.
+When you're ready for deployment, we recommend using the Zentrace Backend <https://github.com/zenchain-protocol/zentrace-backend> through Docker containers. The provided Docker Compose file will automatically download and compile this repository.
 
-Please ensure that you configure the frontend-related environment variables located at <https://github.com/zenchain-protocol/zenchain-explorer-backend/blob/master/docker-compose/envs/common-frontend.env> before proceeding with deployment.
+Please ensure that you configure the frontend-related environment variables located at <https://github.com/zenchain-protocol/zentrace-backend/blob/master/docker-compose/envs/common-frontend.env> before proceeding with deployment.
