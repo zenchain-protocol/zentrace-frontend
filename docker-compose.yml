@@ -1,16 +1,16 @@
-version: '3.9'
+version: "3.9"
 
 services:
   frontend:
     platform: linux/amd64
     restart: always
-    container_name: 'frontend'
-    image: zenchain-explorer/frontend
+    container_name: "frontend"
+    image: zentrace/frontend
     build:
       context: .
       dockerfile: ./Dockerfile
     env_file:
-      -  ./.env
+      - ./.env
     ports:
       - target: 3000
         published: 3000
