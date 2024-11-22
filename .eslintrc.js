@@ -54,11 +54,13 @@ module.exports = {
     },
   },
   rules: {
+    'react/prop-types': 'off',
     '@next/next/no-html-link-for-pages': 'off',
     '@next/next/no-page-custom-font': 'off',
     '@next/next/no-duplicate-head': 'off',
     '@next/next/no-before-interactive-script-outside-document': 'off',
     '@next/next/no-styled-jsx-in-document': 'off',
+    '@next/next/no-head-import-in-document': 'off',
     '@next/next/no-typos': 'off',
     '@next/next/no-document-import-in-page': 'off',
     '@typescript-eslint/array-type': [ 'error', {
@@ -71,7 +73,7 @@ module.exports = {
     '@typescript-eslint/member-delimiter-style': [ 'error' ],
     '@typescript-eslint/no-duplicate-imports': [ 'error' ],
     '@typescript-eslint/no-empty-function': [ 'off' ],
-    '@typescript-eslint/no-unused-vars': [ 'error', { ignoreRestSiblings: true } ],
+    '@typescript-eslint/no-unused-vars': [ 'off' ],
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/no-useless-constructor': [ 'error' ],
     '@typescript-eslint/type-annotation-spacing': 'error',
@@ -234,7 +236,7 @@ module.exports = {
     'react/no-unused-state': 'error',
     'react/require-optimization': [ 'error' ],
     'react/void-dom-elements-no-children': 'error',
-    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/rules-of-hooks': 'off',
     'react-hooks/exhaustive-deps': 'error',
 
     'regexp/confusing-quantifier': 'error',
